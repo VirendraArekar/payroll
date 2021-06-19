@@ -1,0 +1,76 @@
+[debug] [2021-04-26T03:49:04.948Z] ----------------------------------------------------------------------
+[debug] [2021-04-26T03:49:04.950Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-26T03:49:04.951Z] CLI Version:   9.10.0
+[debug] [2021-04-26T03:49:04.951Z] Platform:      win32
+[debug] [2021-04-26T03:49:04.951Z] Node Version:  v14.16.1
+[debug] [2021-04-26T03:49:04.952Z] Time:          Mon Apr 26 2021 09:19:04 GMT+0530 (India Standard Time)
+[debug] [2021-04-26T03:49:04.952Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-26T03:49:04.959Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-26T03:49:04.959Z] > authorizing via signed-in user (virendra.arekar@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\smarthr-react\orange
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-04-26T03:49:16.324Z] > refreshing access token with scopes: []
+[debug] [2021-04-26T03:49:16.325Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-26T03:49:16.538Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 26 Apr 2021 03:49:16 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-26T03:49:16.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-04-26T03:49:17.123Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-04-26T03:49:17.123Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project payroll-d6ac3 (payroll) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2021-04-26T03:49:28.561Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2021-04-26T03:49:28.655Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2021-04-26T03:49:28.656Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"8.4.2","browserURL":"https://www.gstatic.com/firebasejs/8.4.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/8.4.2/firebase.tgz"},"live":{"version":"8.4","browserURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/8.4/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js","auth":"https://www.gstatic.com/firebasejs/8.4.2/firebase-auth.js","database":"https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js","firestore":"https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.js","functions":"https://www.gstatic.com/firebasejs/8.4.2/firebase-functions.js","installations":"https://www.gstatic.com/firebasejs/8.4.2/firebase-installations.js","messaging":"https://www.gstatic.com/firebasejs/8.4.2/firebase-messaging.js","storage":"https://www.gstatic.com/firebasejs/8.4.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/8.4.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/8.4.2/firebase-remote-config.js","firestore.memory":"https://www.gstatic.com/firebasejs/8.4.2/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\User\Desktop\smarthr-react\orange 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=743477518&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-04-26T03:49:46.922Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"b68ac2b28b9be7f76f8c","redirect_uri":"http://localhost:9005","state":"743477518"}
+[debug] [2021-04-26T03:49:47.209Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 26 Apr 2021 03:49:47 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"33868150f445165718c5296011041e85\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"C188:5359:29887A:399C65:6086385B"}
+[debug] [2021-04-26T03:49:47.214Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-04-26T03:49:47.511Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-04-26T03:49:47.511Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"VirendraArekar","id":27573632,"node_id":"MDQ6VXNlcjI3NTczNjMy","avatar_url":"https://avatars.githubusercontent.com/u/27573632?v=4","gravatar_id":"","url":"https://api.github.com/users/VirendraArekar","html_url":"https://github.com/VirendraArekar","followers_url":"https://api.github.com/users/VirendraArekar/followers","following_url":"https://api.github.com/users/VirendraArekar/following{/other_user}","gists_url":"https://api.github.com/users/VirendraArekar/gists{/gist_id}","starred_url":"https://api.github.com/users/VirendraArekar/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/VirendraArekar/subscriptions","organizations_url":"https://api.github.com/users/VirendraArekar/orgs","repos_url":"https://api.github.com/users/VirendraArekar/repos","events_url":"https://api.github.com/users/VirendraArekar/events{/privacy}","received_events_url":"https://api.github.com/users/VirendraArekar/received_events","type":"User","site_admin":false,"name":"Virendra Arekar","company":"Home","blog":"","location":"MUMBAI","email":"virendra.arekar@gmail.com","hireable":true,"bio":"Fullstack Developer(Php, React, React Native, Flutter, GoLang, Vue Js, Python, Laravel, Django, Flask, MongoDB, Mysql, Postgre Sql, Express Js, Node Js ,Ruby","twitter_username":"VishwasArekar","public_repos":31,"public_gists":0,"followers":1,"following":1,"created_at":"2017-04-15T18:02:20Z","updated_at":"2021-04-26T03:22:56Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":154399,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as VirendraArekar 
+[info] 
+[debug] [2021-04-26T03:49:58.487Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-26T03:49:58.759Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-26T03:49:58.759Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-26T03:50:04.643Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-26T03:50:04.891Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-26T03:50:04.891Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-26T03:50:20.818Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-26T03:50:21.074Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-26T03:50:21.074Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2021-04-26T03:50:26.418Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2021-04-26T03:50:26.658Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2021-04-26T03:50:26.658Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
